@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'A place for my mind on the internet'
-theme = 'mini'
+theme = "my-custom-theme"
 
 [params]
   subtitle = 'Writing, projects, thoughts, art and more.'
