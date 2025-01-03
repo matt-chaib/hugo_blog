@@ -61,5 +61,11 @@
   </url><url>
     <loc>http://localhost:1313/posts/spoons/</loc>
     <lastmod>2023-04-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2023-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/</loc>
+    <lastmod>2023-04-14T00:00:00+00:00</lastmod>
   </url>
 </urlset>

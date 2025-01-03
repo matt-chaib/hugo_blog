@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'A place for my mind on the internet'
 theme = 'mini'
 
+[params]
+  subtitle = 'Writing, projects, thoughts, art and more.'
+  archive = "Posts"
+
 [markup]
   [markup.asciidoc]
     renderer = "asciidoctor"
