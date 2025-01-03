@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on A place for my mind on the internet</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on A place for my mind on the internet</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Jun 2024 09:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trip Reports</title>
+      <link>http://localhost:1313/tags/trip-reports/</link>
+      <pubDate>Sat, 15 Jun 2024 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/trip-reports/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Adventure</title>
+      <link>http://localhost:1313/tags/adventure/</link>
+      <pubDate>Sun, 10 Sep 2023 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/adventure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Social Issues</title>
+      <link>http://localhost:1313/tags/social-issues/</link>
+      <pubDate>Thu, 31 Aug 2023 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/social-issues/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thoughts</title>
+      <link>http://localhost:1313/tags/thoughts/</link>
+      <pubDate>Thu, 31 Aug 2023 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/thoughts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Art</title>
+      <link>http://localhost:1313/tags/art/</link>
+      <pubDate>Fri, 14 Apr 2023 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/art/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self</title>
+      <link>http://localhost:1313/tags/self/</link>
+      <pubDate>Fri, 14 Apr 2023 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/self/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spoons</title>
+      <link>http://localhost:1313/tags/spoons/</link>
+      <pubDate>Fri, 14 Apr 2023 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/spoons/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
