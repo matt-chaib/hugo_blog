@@ -6,7 +6,7 @@ date: '2023-04-14T00:00:00Z'
 
 ## About
 <br>
-
+ 
 I want a place to share stories that isn't the advert-filled, hyper-partisan, toxic world of social media. This blog emerged as a place to act as a portfolio for my web development projects and a traditional blog.
 <br>
 
