@@ -1,1 +1,3 @@
-# Rewriting my blog using Hugo, because Svelte was a bit overkill.
+# Rewriting my blog using Hugo...
+
+### Because Svelte was a bit overkill.
