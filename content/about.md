@@ -17,13 +17,13 @@ Blogs with a consistent, domain-specific type of content like [Steve McCurry's p
 
 <br>
 
-Many of these blogs sit in lost, forgotten corners of the internet and that's something I like about them. The stories and content on them sinks deep into your subconscious until you barely recognise it's there because it's a part of you. Social media is like sitting down for a drink in a club, it's intoxicating, there's flashing lights and music blaring, you're engrossed but you're distracted, your senses are overwhelmed, and you're being sold the ideas and products of whoever owns that website (not whose page you're viewing). Visiting someone's personal blog is like popping round to an old friend's house for dinner that they've made to share. It's familiar, and the ideas that are being transported by electromagnetic waves and via deep-sea cables from my fingers to your eyes then down neurons to your brain are all mine, from me to you.
+Many of these blogs sit in lost, forgotten corners of the internet and that's something I like about them. The stories and content on them sinks deep into your subconscious until you barely recognise it's there because it's a part of you. Social media is like sitting down for a drink in a club, it's intoxicating, there's flashing lights and music blaring, you're engrossed but you're distracted, your senses are overwhelmed, and the owner only really wants you there to sell you things and maybe even to take advantage of you. Visiting someone's personal blog is like popping round to an old friend's house for dinner that they've made to share. It's familiar, and the ideas that are being transported by electromagnetic waves and via deep-sea cables from my fingers to your eyes then down neurons to your brain are all mine, from me to you. There's no algorithm to make you love an ideology or addictive features to hack your attention.
 
-Did you know there are 1.4 million km of telecommunications cables on the sea floor, [which is roughly the diameter of the sun](https://www.bbc.com/future/article/20241014-the-deep-sea-emergency-service-that-keeps-the-internet-running)?
+Side note: did you know there are 1.4 million km of telecommunications cables on the sea floor, [which is roughly the diameter of the sun](https://www.bbc.com/future/article/20241014-the-deep-sea-emergency-service-that-keeps-the-internet-running)?
 
 <br>
 
-It's an experience, it's intentional, it's identity, and it's connection with an individual. Big words. But anyway, this is my lost old little corner of the internet, welcome.
+Visiting a personal blog is an experience, it's intentional, it's identity, and it's connection with an individual. But anyway, this is my little corner of the internet, welcome.
 
 <br>
 

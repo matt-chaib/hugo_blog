@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://mattchaib.com/'
 languageCode = 'en-us'
-title = 'A place for my mind on the internet'
+title = 'A place for my mind on the internet...'
 theme = "my-custom-theme"
 
 [params]

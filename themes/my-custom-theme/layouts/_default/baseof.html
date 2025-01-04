@@ -9,7 +9,7 @@
 
   <body>
     {{ if .IsHome }}
-    <div class="homepage-background">
+    <div class="homepage-background" id="bg-image">
       {{ partial "navigation.html" . }}
       {{ partial "profile.html" . }}
     </div>
@@ -22,5 +22,63 @@
     </main>
 
     {{ partial "footer.html" . }}
+    <script>
+      const toggleButton = document.getElementById('darkModeToggle');
+      const body = document.body;
+      const bgImage = document.getElementById('bg-image');
+      const navigation = document.getElementById('navigation');
+      const titles = document.getElementsByClassName('profile')[0]
+      const summaryElements = document.getElementsByClassName('summary')
+      const listTitles = document.getElementsByClassName('title')
+
+      if (localStorage.getItem('theme') === 'dark') {
+        body.classList.add('dark-mode');
+        if (bgImage) bgImage.classList.add('dark-mode')
+        navigation.classList.add('dark-mode');
+        if (titles) titles.classList.add('dark-mode');
+        if (summaryElements) {
+          for (const summary of summaryElements) {
+          summary.classList.add('dark-mode');
+        }
+        }
+        if (listTitles) {
+          for (const t of listTitles) {
+          t.classList.add('dark-mode');
+        }
+        }
+        toggleButton.textContent = 'Light';
+      }
+  
+      toggleButton.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+        if (bgImage) bgImage.classList.toggle('dark-mode')
+        navigation.classList.toggle('dark-mode')
+        if (titles) titles.classList.toggle('dark-mode')
+        if (summaryElements) {
+          for (const summary of summaryElements) {
+            summary.classList.toggle('dark-mode');
+          }
+        }
+        if (listTitles) {
+          for (const t of listTitles) {
+          t.classList.toggle('dark-mode');
+        }
+        }
+        if (body.classList.contains('dark-mode')) {
+          localStorage.setItem('theme', 'dark');
+          toggleButton.textContent = 'Light';
+        } else {
+          localStorage.setItem('theme', 'light');
+          toggleButton.textContent = 'Dark';
+        }
+      });
+
+      const burgerToggle = document.getElementById('burgerToggle');
+      const navLinks = document.getElementById('nav-links');
+
+      burgerToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('open'); // Toggle the 'open' class
+      });
+    </script>
   </body>
 </html>

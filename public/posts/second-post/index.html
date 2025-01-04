@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <title>Norway (July 2022) | A place for my mind on the internet</title>
+    <title>Norway (July 2022) | A place for my mind on the internet...</title>
 
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
@@ -35,16 +35,28 @@
 
   <body>
     
-    <nav class="navigation">
-	
+    <nav class="navigation" id="navigation">
+	<div>
+		<button id="darkModeToggle">Toggle Mode</button>
+	</div>
+
+	<div class="nav-header">
+		<button id="burgerToggle" class="burger-bar">
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</button>
+	  </div>
+
+	<div class="nav-links" id="nav-links">
+		
 		<a href="/"> <span class="arrow">←</span>Home</a>
-	
 	
 	<a href="/portfolio">Portfolio</a>
 	<a href="/posts">Posts</a>
 	<a href="/tags">Tags</a>
 	<a href="/about">About</a>
-
+	</div>
 	
 
 	
@@ -122,5 +134,63 @@
 
 
 
+    <script>
+      const toggleButton = document.getElementById('darkModeToggle');
+      const body = document.body;
+      const bgImage = document.getElementById('bg-image');
+      const navigation = document.getElementById('navigation');
+      const titles = document.getElementsByClassName('profile')[0]
+      const summaryElements = document.getElementsByClassName('summary')
+      const listTitles = document.getElementsByClassName('title')
+
+      if (localStorage.getItem('theme') === 'dark') {
+        body.classList.add('dark-mode');
+        if (bgImage) bgImage.classList.add('dark-mode')
+        navigation.classList.add('dark-mode');
+        if (titles) titles.classList.add('dark-mode');
+        if (summaryElements) {
+          for (const summary of summaryElements) {
+          summary.classList.add('dark-mode');
+        }
+        }
+        if (listTitles) {
+          for (const t of listTitles) {
+          t.classList.add('dark-mode');
+        }
+        }
+        toggleButton.textContent = 'Light';
+      }
+  
+      toggleButton.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+        if (bgImage) bgImage.classList.toggle('dark-mode')
+        navigation.classList.toggle('dark-mode')
+        if (titles) titles.classList.toggle('dark-mode')
+        if (summaryElements) {
+          for (const summary of summaryElements) {
+            summary.classList.toggle('dark-mode');
+          }
+        }
+        if (listTitles) {
+          for (const t of listTitles) {
+          t.classList.toggle('dark-mode');
+        }
+        }
+        if (body.classList.contains('dark-mode')) {
+          localStorage.setItem('theme', 'dark');
+          toggleButton.textContent = 'Light';
+        } else {
+          localStorage.setItem('theme', 'light');
+          toggleButton.textContent = 'Dark';
+        }
+      });
+
+      const burgerToggle = document.getElementById('burgerToggle');
+      const navLinks = document.getElementById('nav-links');
+
+      burgerToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('open'); 
+      });
+    </script>
   </body>
 </html>

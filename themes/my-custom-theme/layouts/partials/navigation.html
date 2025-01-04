@@ -1,13 +1,25 @@
-<nav class="navigation">
-	{{ if not .IsHome }}
+<nav class="navigation" id="navigation">
+	<div>
+		<button id="darkModeToggle">Toggle Mode</button>
+	</div>
+
+	<div class="nav-header">
+		<button id="burgerToggle" class="burger-bar">
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</button>
+	  </div>
+
+	<div class="nav-links" id="nav-links">
+		{{ if not .IsHome }}
 		<a href="{{ "/" | relURL }}"> <span class="arrow">←</span>{{ with .Site.Params.home }}{{ . }}{{ else }}{{ i18n "home" }}{{ end }}</a>
 	{{ end }}
-	
 	<a href="{{ "/portfolio" | relURL }}">{{ with .Site.Params.portfolio }}{{ . }}{{ else }}Portfolio{{ end }}</a>
 	<a href="{{ "/posts" | relURL }}">{{ with .Site.Params.archive }}{{ . }}{{ else }}{{ i18n "archive" }}{{ end }}</a>
 	<a href="{{ "/tags" | relURL }}">{{ with .Site.Params.tags }}{{ . }}{{ else }}{{ i18n "tags" }}{{ end }}</a>
 	<a href="{{ "/about" | relURL }}">{{ with .Site.Params.about }}{{ . }}{{ else }}{{ i18n "about" }}{{ end }}</a>
-
+	</div>
 	{{ range $element := .Site.Params.Links }}
 		<a href="{{ $element.path }}">{{ $element.name }}</a>
 	{{ end }}

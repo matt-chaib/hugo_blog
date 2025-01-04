@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <title>A place for my mind on the internet</title>
+    <title>A place for my mind on the internet...</title>
 
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
@@ -30,8 +30,8 @@
 
 
   
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="A place for my mind on the internet" />
-    <link href="/index.xml" rel="feed" type="application/rss+xml" title="A place for my mind on the internet" />
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="A place for my mind on the internet..." />
+    <link href="/index.xml" rel="feed" type="application/rss+xml" title="A place for my mind on the internet..." />
   
 
 
@@ -40,15 +40,27 @@
 
   <body>
     
-    <div class="homepage-background">
-      <nav class="navigation">
-	
-	
+    <div class="homepage-background" id="bg-image">
+      <nav class="navigation" id="navigation">
+	<div>
+		<button id="darkModeToggle">Toggle Mode</button>
+	</div>
+
+	<div class="nav-header">
+		<button id="burgerToggle" class="burger-bar">
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</button>
+	  </div>
+
+	<div class="nav-links" id="nav-links">
+		
 	<a href="/portfolio">Portfolio</a>
 	<a href="/posts">Posts</a>
 	<a href="/tags">Tags</a>
 	<a href="/about">About</a>
-
+	</div>
 	
 
 	
@@ -58,7 +70,7 @@
     
       
     <div>
-      <h1>A place for my mind on the internet</h1>
+      <h1>A place for my mind on the internet...</h1>
       <h2>Writing, projects, thoughts, art and more.</h2>
     </div>
 
@@ -78,14 +90,48 @@
         
         <section class="item">
           <div>
-            <h1 class="title"><a href='/posts/my-first-post/'>My First Post</a></h1>
+            <h1 class="title"><a href='/posts/three-stags/'>Three stags</a></h1>
             <div class ="date">
-                <time datetime="2025-01-03 15:15:38 &#43;0000 UTC">Jan 3, 2025</time>  
+                <time datetime="2025-01-04 09:43:00 &#43;0000 UTC">Jan 4, 2025</time>  
             </div>
           </div>
 
           
-              <div class="summary">Hello, world 🔗</div>
+              <div class="summary">Three stags 🔗Three crossing,
+The first two fast,
+The last one stops,
+Eyes locked.
+Gazing to the past.
+Of beasts,
+Prehistoric,
+Wandering the land,
+Not ours.
+Shared uneasily.
+A time
+Forgotten,
+A feeling
+Lost,
+A moment
+Glimpsed.
+The stag stares.
+I shout
+To the woods,
+To safety,
+Away,
+Enclosed.
+The stag stares.
+A moment longer
+Uncomprehending,
+But perhaps
+Feeling
+The injustice,
+The change,
+The alien.
+Into the woods
+I follow
+But soon
+They are gone.
+</div>
           
 
         </section>
@@ -267,5 +313,63 @@ https://mogs-git.github.io/circle_waves/ https://mogs-git.github.io/raindrops/ h
 
 
 
+    <script>
+      const toggleButton = document.getElementById('darkModeToggle');
+      const body = document.body;
+      const bgImage = document.getElementById('bg-image');
+      const navigation = document.getElementById('navigation');
+      const titles = document.getElementsByClassName('profile')[0]
+      const summaryElements = document.getElementsByClassName('summary')
+      const listTitles = document.getElementsByClassName('title')
+
+      if (localStorage.getItem('theme') === 'dark') {
+        body.classList.add('dark-mode');
+        if (bgImage) bgImage.classList.add('dark-mode')
+        navigation.classList.add('dark-mode');
+        if (titles) titles.classList.add('dark-mode');
+        if (summaryElements) {
+          for (const summary of summaryElements) {
+          summary.classList.add('dark-mode');
+        }
+        }
+        if (listTitles) {
+          for (const t of listTitles) {
+          t.classList.add('dark-mode');
+        }
+        }
+        toggleButton.textContent = 'Light';
+      }
+  
+      toggleButton.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+        if (bgImage) bgImage.classList.toggle('dark-mode')
+        navigation.classList.toggle('dark-mode')
+        if (titles) titles.classList.toggle('dark-mode')
+        if (summaryElements) {
+          for (const summary of summaryElements) {
+            summary.classList.toggle('dark-mode');
+          }
+        }
+        if (listTitles) {
+          for (const t of listTitles) {
+          t.classList.toggle('dark-mode');
+        }
+        }
+        if (body.classList.contains('dark-mode')) {
+          localStorage.setItem('theme', 'dark');
+          toggleButton.textContent = 'Light';
+        } else {
+          localStorage.setItem('theme', 'light');
+          toggleButton.textContent = 'Dark';
+        }
+      });
+
+      const burgerToggle = document.getElementById('burgerToggle');
+      const navLinks = document.getElementById('nav-links');
+
+      burgerToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('open'); 
+      });
+    </script>
   </body>
 </html>

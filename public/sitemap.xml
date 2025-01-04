@@ -3,18 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-03T15:15:38+00:00</lastmod>
+    <lastmod>2025-01-04T09:43:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
-    <lastmod>2025-01-03T15:15:38+00:00</lastmod>
+    <loc>http://localhost:1313/tags/poems/</loc>
+    <lastmod>2025-01-04T09:43:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-01-03T15:15:38+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/hebrides-may-2024/</loc>
-    <lastmod>2024-06-15T09:00:00+00:00</lastmod>
+    <lastmod>2025-01-04T09:43:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-01-04T09:43:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/three-stags/</loc>
+    <lastmod>2025-01-04T09:43:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/hebrides-may-2024/</loc>
     <lastmod>2024-06-15T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/trip-reports/</loc>
