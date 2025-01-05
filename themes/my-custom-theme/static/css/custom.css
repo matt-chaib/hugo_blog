@@ -121,6 +121,9 @@ nav.navigation {
       margin: 0 auto;
       text-align: right;
       z-index: 100;
+      flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
     }
     nav.navigation a {
       top: 8px;
