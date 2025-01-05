@@ -180,6 +180,11 @@ nav.navigation {
     color: #f3f3f3;
   }
 
+  #archive > div > div > div.title.dark-mode > div.tags > a {
+    background: #727272;
+    color: #f3f3f3;
+  } 
+
   .nav-header {
     display: flex;
     align-items: center;
