@@ -190,6 +190,7 @@ nav.navigation {
     align-items: center;
   }
   
+  
   .burger-bar {
     display: none; /* Hidden on larger screens */
     flex-direction: column;
