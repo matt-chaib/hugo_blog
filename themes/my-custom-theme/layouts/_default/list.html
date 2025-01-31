@@ -13,8 +13,8 @@
                     <time datetime="{{ .PublishDate }}">{{ i18n "publishDateShort" . }}</time>
                   </div>
                   <div class="title">
-                      <a href="{{ .Permalink }}">
-                          {{ .Title }}
+                    <a href="{{ .RelPermalink }}">
+                        {{ .Title }}
                       </a>
 
                       {{ with .Params.tags }}
