@@ -39,10 +39,9 @@ The Hebrides is a place of open and quiet, punctuated by beaches, the water, wil
 
 By Barra, the first island of the Outer Hebrides, it had clicked. We camped behind a beach at Vatersay, playing frisbee using a plate, and each went for a swim. I ran along the length of the beach. The moon was sitting above some hills enclosing the beach and the sillhouettes of cows grazing up there could be made out against the sky. Some hermit crabs were going about their business in the shallows. Oystercatchers came and went. The sea brings a diversity of life that is pretty astonishing when you’re used to living inland. The sounds of the birds and waves, the smell of it. 
 
-<!-- <div class="single-image-panel">
-  <img src="/hebrides-may-2024/bodge.jpg" alt="bodged photo near berneray."/>
-  <caption>My big thumbs almost ruining this pristine view riding into Berneray after a long day.</caption>
-</div> -->
+
+![bodged photo near berneray.](/hebrides-may-2024/bodge.jpg)
+*My big thumbs almost ruining this pristine view riding into Berneray after a long day.*
 
 The next morning a slight miscalculation of distances meant that we had to race for our ferry in the north of Barra. We barely made it, the ferry departing just a minute after we boarded. With the sun, flat roads and a tailwind this went on to be our biggest day, riding 147km despite various stops for cafes, famous yet underwhelming bakeries and grizzled old cats. After some wrong turns, desperate toilet stops and many waits in passing-places we finally made it to Berneray where we had one of the most satisfying and beautiful camps of the trip. 
 
@@ -53,6 +52,9 @@ The next morning, a ferry to the southern tip of Harris. A strong headwind. Big 
   <caption>The scuzzy camp, behind a recycling centre.</caption>
 </div> -->
 
+![scuzzy camp.](/hebrides-may-2024/tent.jpg)
+*The scuzzy camp, behind a recycling centre.*
+
 Learning about the eccentricities of your friends is always great fun on a fairly intimate trip like this one. The way one friend sits in their tent and plays the irish whistle to themselves, or sits silent and thoughtful then baffle you with big bursts of laughter. The way another will shamelessly ask for your last strawberry, or when offered your other luxury food items, will decline but tell you she’ll have some tomorrow so do save her a bit.The friend who given the briefest spare moment will suddenly be buried in her book. Travelling with those who you know will get through and rely on, who rarely complain or stress when something doesn’t go to plan, and who revel in the opportunities found in moving from place to place freely is a pleasure and not something easy to find. The naturalness of it all is really a bit hard to believe, how a group of spirits can so effortlessly come together and share something through the common language of being outdoors on a journey. Many small things make up that language, even if none of them individually are what magically "makes it" an adventure. Stopping at a waterfall for a quick shower. Swimming in the cold water. Stopping at an excellent cafe. Sneaking a Selkirk Bannock into a friend's pannier bag. Comparing crocs. Playing the whistle.
 
 <!-- <div class="single-image-panel">
@@ -60,9 +62,15 @@ Learning about the eccentricities of your friends is always great fun on a fairl
   <caption>Pitching up camp on Skye.</caption>
 </div> -->
 
+![skye.](/hebrides-may-2024/skye_camp.jpg)
+*Pitching up camp on Skye.*
+
 Coming back was hard, as it always is after a great trip. I always feel like coming back a different species to those around me. How can they understand? How can they accept this existence, of wasting away in the office? But the bigger tragedy would be to never know the feeling of it, or to forget the need for it in the grips of “real life”, so I have to be grateful. 
 <!-- 
 <div class="single-image-panel">
   <img src="/hebrides-may-2024/open_sea.jpg" alt="Open sea."/>
   <caption>The open sea.</caption>
 </div> -->
+
+![Open sea.](/hebrides-may-2024/open_sea.jpg)
+*The open sea.*
