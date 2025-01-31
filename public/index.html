@@ -235,7 +235,7 @@ At the time of writing this, about one year ago I embarked on a solo trip to Nor
           </div>
 
           
-              <div class="summary">Dark Grain Spoon 🔗August 2023 🔗 Spiral Spoon 🔗August 2023 🔗 “Mountain” spoon 🔗December 2021 🔗 Hollow spiral spoon 🔗April 2020 🔗</div>
+              <div class="summary">Dark Grain Spoon 🔗August 2023 🔗 Spiral Spoon 🔗August 2023 🔗 “Mountain” spoon 🔗December 2021 🔗 Hollow spiral spoon 🔗April 2020 🔗 </div>
           
 
         </section>
@@ -316,61 +316,27 @@ https://mogs-git.github.io/circle_waves/ https://mogs-git.github.io/raindrops/ h
     <script>
       const toggleButton = document.getElementById('darkModeToggle');
       const body = document.body;
-      const bgImage = document.getElementById('bg-image');
-      const navigation = document.getElementById('navigation');
-      const titles = document.getElementsByClassName('profile')[0]
-      const summaryElements = document.getElementsByClassName('summary')
-      const listTitles = document.getElementsByClassName('title')
-      toggleButton.textContent = 'Dark';
-
-      if (localStorage.getItem('theme') === 'dark') {
-        body.classList.add('dark-mode');
-        if (bgImage) bgImage.classList.add('dark-mode')
-        navigation.classList.add('dark-mode');
-        if (titles) titles.classList.add('dark-mode');
-        if (summaryElements) {
-          for (const summary of summaryElements) {
-          summary.classList.add('dark-mode');
-        }
-        }
-        if (listTitles) {
-          for (const t of listTitles) {
-          t.classList.add('dark-mode');
-        }
-        }
-        toggleButton.textContent = 'Light';
+    
+      function setDarkMode(enabled) {
+        body.classList.toggle('dark-mode', enabled);
+        localStorage.setItem('theme', enabled ? 'dark' : 'light');
+        toggleButton.textContent = enabled ? 'Light' : 'Dark';
       }
-  
+    
+      
+      const userTheme = localStorage.getItem('theme');
+      const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      setDarkMode(userTheme === 'dark' || (!userTheme && systemPrefersDark));
+    
       toggleButton.addEventListener('click', () => {
-        body.classList.toggle('dark-mode');
-        if (bgImage) bgImage.classList.toggle('dark-mode')
-        navigation.classList.toggle('dark-mode')
-        if (titles) titles.classList.toggle('dark-mode')
-        if (summaryElements) {
-          for (const summary of summaryElements) {
-            summary.classList.toggle('dark-mode');
-          }
-        }
-        if (listTitles) {
-          for (const t of listTitles) {
-          t.classList.toggle('dark-mode');
-        }
-        }
-        if (body.classList.contains('dark-mode')) {
-          localStorage.setItem('theme', 'dark');
-          toggleButton.textContent = 'Light';
-        } else {
-          localStorage.setItem('theme', 'light');
-          toggleButton.textContent = 'Dark';
-        }
+        setDarkMode(!body.classList.contains('dark-mode'));
       });
-
-      const burgerToggle = document.getElementById('burgerToggle');
-      const navLinks = document.getElementById('nav-links');
-
-      burgerToggle.addEventListener('click', () => {
-        navLinks.classList.toggle('open'); 
+    
+      
+      document.getElementById('burgerToggle').addEventListener('click', () => {
+        document.getElementById('nav-links').classList.toggle('open');
       });
     </script>
+    
   </body>
 </html>

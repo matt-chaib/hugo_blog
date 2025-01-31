@@ -91,13 +91,24 @@
 
 
     <div class="content">
-      <h3 id="dark-grain-spoon">Dark Grain Spoon <a href="#dark-grain-spoon" class="anchor">🔗</a></h3><h4 id="august-2023"><em>August 2023</em> <a href="#august-2023" class="anchor">🔗</a></h4><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h3 id="spiral-spoon">Spiral Spoon <a href="#spiral-spoon" class="anchor">🔗</a></h3><h4 id="august-2023-1"><em>August 2023</em> <a href="#august-2023-1" class="anchor">🔗</a></h4><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h3 id="mountain-spoon">&ldquo;Mountain&rdquo; spoon <a href="#mountain-spoon" class="anchor">🔗</a></h3><h4 id="december-2021"><em>December 2021</em> <a href="#december-2021" class="anchor">🔗</a></h4><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h3 id="hollow-spiral-spoon">Hollow spiral spoon <a href="#hollow-spiral-spoon" class="anchor">🔗</a></h3><h4 id="april-2020"><em>April 2020</em> <a href="#april-2020" class="anchor">🔗</a></h4><!-- raw HTML omitted -->
+      <h3 id="dark-grain-spoon">Dark Grain Spoon <a href="#dark-grain-spoon" class="anchor">🔗</a></h3><h4 id="august-2023"><em>August 2023</em> <a href="#august-2023" class="anchor">🔗</a></h4><div style="display: flex; justify-content: space-between; gap: 10px;">
+  <img src="/aug_spoon2.jpg" alt="dark grain spoon" style="width: 49%;"/>
+  <img src="/aug_spoon2a.jpg" alt="dark grain spoon" style="width: 49%;"/>
+</div>
+
+<h3 id="spiral-spoon">Spiral Spoon <a href="#spiral-spoon" class="anchor">🔗</a></h3><h4 id="august-2023-1"><em>August 2023</em> <a href="#august-2023-1" class="anchor">🔗</a></h4><div style="display: flex; justify-content: space-between; gap: 10px;">
+  <img src="/spiral_spoon_1.jpg" alt="spiral spoon" style="width: 49%;"/>
+  <img src="/spiral_spoon_2.jpg" alt="spiral spoon" style="width: 49%;"/>
+</div>
+
+<h3 id="mountain-spoon">&ldquo;Mountain&rdquo; spoon <a href="#mountain-spoon" class="anchor">🔗</a></h3><h4 id="december-2021"><em>December 2021</em> <a href="#december-2021" class="anchor">🔗</a></h4><div style="display: flex; justify-content: space-between; gap: 10px;">
+  <img src="/mountain_spoon1.jpg" alt="mountain spoon" style="width: 49%;"/>
+  <img src="/mountain_spoon2.jpg" alt="mountain spoon" style="width: 49%;"/>
+</div>
+
+<h3 id="hollow-spiral-spoon">Hollow spiral spoon <a href="#hollow-spiral-spoon" class="anchor">🔗</a></h3><h4 id="april-2020"><em>April 2020</em> <a href="#april-2020" class="anchor">🔗</a></h4><p><p class="markdown-image">
+  <img src="/hollow_spiral.jpg" alt="Hollow Spiral Spoon"  />
+</p></p>
 
     </div>
 
@@ -148,61 +159,27 @@
     <script>
       const toggleButton = document.getElementById('darkModeToggle');
       const body = document.body;
-      const bgImage = document.getElementById('bg-image');
-      const navigation = document.getElementById('navigation');
-      const titles = document.getElementsByClassName('profile')[0]
-      const summaryElements = document.getElementsByClassName('summary')
-      const listTitles = document.getElementsByClassName('title')
-      toggleButton.textContent = 'Dark';
-
-      if (localStorage.getItem('theme') === 'dark') {
-        body.classList.add('dark-mode');
-        if (bgImage) bgImage.classList.add('dark-mode')
-        navigation.classList.add('dark-mode');
-        if (titles) titles.classList.add('dark-mode');
-        if (summaryElements) {
-          for (const summary of summaryElements) {
-          summary.classList.add('dark-mode');
-        }
-        }
-        if (listTitles) {
-          for (const t of listTitles) {
-          t.classList.add('dark-mode');
-        }
-        }
-        toggleButton.textContent = 'Light';
+    
+      function setDarkMode(enabled) {
+        body.classList.toggle('dark-mode', enabled);
+        localStorage.setItem('theme', enabled ? 'dark' : 'light');
+        toggleButton.textContent = enabled ? 'Light' : 'Dark';
       }
-  
+    
+      
+      const userTheme = localStorage.getItem('theme');
+      const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      setDarkMode(userTheme === 'dark' || (!userTheme && systemPrefersDark));
+    
       toggleButton.addEventListener('click', () => {
-        body.classList.toggle('dark-mode');
-        if (bgImage) bgImage.classList.toggle('dark-mode')
-        navigation.classList.toggle('dark-mode')
-        if (titles) titles.classList.toggle('dark-mode')
-        if (summaryElements) {
-          for (const summary of summaryElements) {
-            summary.classList.toggle('dark-mode');
-          }
-        }
-        if (listTitles) {
-          for (const t of listTitles) {
-          t.classList.toggle('dark-mode');
-        }
-        }
-        if (body.classList.contains('dark-mode')) {
-          localStorage.setItem('theme', 'dark');
-          toggleButton.textContent = 'Light';
-        } else {
-          localStorage.setItem('theme', 'light');
-          toggleButton.textContent = 'Dark';
-        }
+        setDarkMode(!body.classList.contains('dark-mode'));
       });
-
-      const burgerToggle = document.getElementById('burgerToggle');
-      const navLinks = document.getElementById('nav-links');
-
-      burgerToggle.addEventListener('click', () => {
-        navLinks.classList.toggle('open'); 
+    
+      
+      document.getElementById('burgerToggle').addEventListener('click', () => {
+        document.getElementById('nav-links').classList.toggle('open');
       });
     </script>
+    
   </body>
 </html>
