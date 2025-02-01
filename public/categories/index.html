@@ -123,11 +123,15 @@
     <script>
       const toggleButton = document.getElementById('darkModeToggle');
       const body = document.body;
-    
+      const bgImage = document.querySelector('.homepage-background'); 
+
       function setDarkMode(enabled) {
         body.classList.toggle('dark-mode', enabled);
         localStorage.setItem('theme', enabled ? 'dark' : 'light');
         toggleButton.textContent = enabled ? 'Light' : 'Dark';
+        if (bgImage && enabled) bgImage.style.backgroundImage = "url('/darkmode_bg_small_c.jpg')";
+        if (bgImage && !enabled) bgImage.style.backgroundImage = "url('/heather_background_c.jpg')";
+
       }
     
       

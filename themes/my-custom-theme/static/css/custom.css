@@ -1,8 +1,10 @@
 :root {
   --bg-color: white;
-  --text-color: black;
-  --nav-bg: #f8f9fa;
+  --text-color: #222222;
+  --text-color-muted: #434343;
+  --nav-bg: #f8f9fad1;
   --nav-hover-colour: #e0e0e0;
+  --nav-text-hover: #2e8deb;
   --bg-image: url('/heather_background_c.jpg');
   --title-color: #303030;
   --subtitle-color: #d6d6d6;
@@ -10,21 +12,8 @@
   --subtitle-color-desktop: #303030;
 }
 
-.dark-mode {
-  --bg-color: #121212;
-  --text-color: #e0e0e0;
-  --nav-bg: #333;
-  --nav-hover-colour: #303030;
-  --bg-image: url('/darkmode_bg_small_c.jpg');
-  --title-color: #e0e0e0;
-  --subtitle-color: #e0e0e0;
-  --box-shadow-color: rgba(255, 255, 255, 0.2);
-  --subtitle-color-desktop: #e0e0e0;
 
-
-}
-
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #121212;
   --text-color: #e0e0e0;
@@ -37,6 +26,29 @@
   --subtitle-color-desktop: #e0e0e0;
 
   }
+} */
+
+.dark-mode {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --text-color-muted: #c1c1c1;
+  --nav-bg: #333333af;
+  --nav-hover-colour: #303030;
+  --nav-text-hover: #d35f18;
+  --bg-image: url('/darkmode_bg_small_c.jpg');
+  --title-color: #e0e0e0;
+  --subtitle-color: #e0e0e0;
+  --box-shadow-color: rgba(255, 255, 255, 0.2);
+  --subtitle-color-desktop: #e0e0e0;
+}
+
+/* a:hover {
+  color: var(--nav-text-hover)
+} */
+
+#archive .group .value .title a:hover {
+  color: var(--nav-text-hover)
+
 }
 
 .homepage-background {
@@ -50,20 +62,13 @@
     z-index: 0;
 }
 
+
 .navigation a {
   color: var(--text-color);
 }
 
 .navigation a:hover {
-  color: var(--text-colour);
-}
-
-.profile h1 {
-  color: var(--text-color);
-}
-
-.profile h2 {
-  color: var(--text-color);
+  color: var(--nav-text-hover);
 }
 
 body {
@@ -130,7 +135,7 @@ nav.navigation {
     border-radius: 3px;
   }
   nav.navigation a:hover {
-    color: var(--text-color);
+    color: var(--nav-text-hover);
     background-color: var(--nav-bg);
     border-radius: 4px;
     transition: all;
@@ -201,18 +206,23 @@ nav.navigation {
     color: var(--text-color);
   }
 
-  #list-page .summary.dark-mode {
-    color: #f3f3f3;
+  #list-page .summary {
+    color: var(--text-color-muted);
   }
 
-  #list-page .title.dark-mode a {
-    color: #f3f3f3;
+  #list-page .title a {
+    color: var(--text-color);
   }
 
-  #archive > div > div > div.title.dark-mode > div.tags > a {
-    background: #727272;
-    color: #f3f3f3;
-  } 
+  #archive .group .value .title a {
+    color: var(--text-color)
+  }
+
+  #archive .group .value .title .tags a {
+    color: var(--text-color);
+    background-color: var(--nav-bg);
+  }
+
 
   .nav-header {
     display: flex;
@@ -246,8 +256,8 @@ nav.navigation {
     position: absolute;
     top: 14px;
     left: 14px;
-    background-color: transparent;
-    color: var(--title-color); /* White text for contrast */
+    background-color: rgba(255, 255, 255, 0.2);
+    color: var(--text-color); /* White text for contrast */
     border: none;
     border-radius: 5px;
     padding: 8px 8px;
