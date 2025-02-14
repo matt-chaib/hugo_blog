@@ -2,73 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://mattchaib.com/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mattchaib.com/portfolio/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mattchaib.com/tags/poems/</loc>
     <lastmod>2025-01-04T09:43:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/poems/</loc>
+    <loc>https://mattchaib.com/posts/</loc>
     <lastmod>2025-01-04T09:43:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://mattchaib.com/tags/</loc>
     <lastmod>2025-01-04T09:43:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://mattchaib.com/posts/three-stags/</loc>
     <lastmod>2025-01-04T09:43:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/three-stags/</loc>
-    <lastmod>2025-01-04T09:43:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/hebrides-may-2024/</loc>
+    <loc>https://mattchaib.com/posts/hebrides-may-2024/</loc>
     <lastmod>2024-06-15T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/trip-reports/</loc>
+    <loc>https://mattchaib.com/tags/trip-reports/</loc>
     <lastmod>2024-06-15T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/adventure/</loc>
+    <loc>https://mattchaib.com/tags/adventure/</loc>
     <lastmod>2023-09-10T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/wild-swimming-milestone/</loc>
+    <loc>https://mattchaib.com/posts/wild-swimming-milestone/</loc>
     <lastmod>2023-09-10T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/wales-september-2023/</loc>
+    <loc>https://mattchaib.com/posts/wales-september-2023/</loc>
     <lastmod>2023-09-05T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/social-issues/</loc>
+    <loc>https://mattchaib.com/tags/social-issues/</loc>
     <lastmod>2023-08-31T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/the-price-of-chocolate/</loc>
+    <loc>https://mattchaib.com/posts/the-price-of-chocolate/</loc>
     <lastmod>2023-08-31T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/thoughts/</loc>
+    <loc>https://mattchaib.com/tags/thoughts/</loc>
     <lastmod>2023-08-31T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://mattchaib.com/categories/</loc>
     <lastmod>2023-04-16T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/second-post/</loc>
+    <loc>https://mattchaib.com/posts/second-post/</loc>
     <lastmod>2023-04-16T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/self/</loc>
+    <loc>https://mattchaib.com/categories/self/</loc>
     <lastmod>2023-04-16T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/trips/</loc>
+    <loc>https://mattchaib.com/categories/trips/</loc>
     <lastmod>2023-04-16T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/art/</loc>
+    <loc>https://mattchaib.com/tags/art/</loc>
     <lastmod>2023-04-14T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/self/</loc>
+    <loc>https://mattchaib.com/tags/self/</loc>
     <lastmod>2023-04-14T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/spoons/</loc>
+    <loc>https://mattchaib.com/tags/spoons/</loc>
     <lastmod>2023-04-14T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/spoons/</loc>
+    <loc>https://mattchaib.com/posts/spoons/</loc>
     <lastmod>2023-04-14T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2023-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/portfolio/</loc>
+    <loc>https://mattchaib.com/about/</loc>
     <lastmod>2023-04-14T00:00:00+00:00</lastmod>
   </url>
 </urlset>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on A place for my mind on the internet...</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://mattchaib.com/categories/</link>
     <description>Recent content in Categories on A place for my mind on the internet...</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Apr 2023 09:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mattchaib.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self</title>
-      <link>http://localhost:1313/categories/self/</link>
+      <link>https://mattchaib.com/categories/self/</link>
       <pubDate>Sun, 16 Apr 2023 09:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/self/</guid>
+      <guid>https://mattchaib.com/categories/self/</guid>
       <description></description>
     </item>
     <item>
       <title>Trips</title>
-      <link>http://localhost:1313/categories/trips/</link>
+      <link>https://mattchaib.com/categories/trips/</link>
       <pubDate>Sun, 16 Apr 2023 09:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/trips/</guid>
+      <guid>https://mattchaib.com/categories/trips/</guid>
       <description></description>
     </item>
   </channel>

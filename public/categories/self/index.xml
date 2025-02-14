@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Self on A place for my mind on the internet...</title>
-    <link>http://localhost:1313/categories/self/</link>
+    <link>https://mattchaib.com/categories/self/</link>
     <description>Recent content in Self on A place for my mind on the internet...</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Apr 2023 09:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/self/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mattchaib.com/categories/self/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Norway (July 2022)</title>
-      <link>http://localhost:1313/posts/second-post/</link>
+      <link>https://mattchaib.com/posts/second-post/</link>
       <pubDate>Sun, 16 Apr 2023 09:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/second-post/</guid>
-      <description>&lt;h2 id=&#34;norway-july-2022&#34;&gt;Norway: July 2022 &lt;a href=&#34;#norway-july-2022&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;p class=&#34;markdown-image&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/gjende.jpg&#34; alt=&#34;Gjende&#34;  /&gt;&#xA;&lt;/p&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;The Gjende in all it&amp;rsquo;s glory, with the Bessegen ridge continuing on the right.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;At the time of writing this, about one year ago I embarked on a solo trip to Norway. I&amp;rsquo;d just been told I would be let go from my job and expected to be offered a new on starting in about 6-week&amp;rsquo;s time, and I saw the opportunity looming ahead of me to get away on some travels.&lt;/p&gt;</description>
+      <guid>https://mattchaib.com/posts/second-post/</guid>
+      <description>&lt;h2 id=&#34;norway-july-2022&#34;&gt;Norway: July 2022 &lt;a href=&#34;#norway-july-2022&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;p class=&#34;markdown-image&#34;&gt;&#xA;  &lt;img src=&#34;https://mattchaib.com/gjende.jpg&#34; alt=&#34;Gjende&#34;  /&gt;&#xA;&lt;/p&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;The Gjende in all it&amp;rsquo;s glory, with the Bessegen ridge continuing on the right.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;At the time of writing this, about one year ago I embarked on a solo trip to Norway. I&amp;rsquo;d just been told I would be let go from my job and expected to be offered a new on starting in about 6-week&amp;rsquo;s time, and I saw the opportunity looming ahead of me to get away on some travels.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
