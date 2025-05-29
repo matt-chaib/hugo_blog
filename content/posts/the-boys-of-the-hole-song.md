@@ -31,6 +31,8 @@ I've been down here for 20 odd year,
 Did you know that it's good manners to knock?
 'ave you been living under a rock?
 
+–
+
 
 Once upon a time I led a normal life,
 That was free from holes and in the light,
@@ -45,6 +47,8 @@ As the years and the storms they did pass by,
 And many a hiker found a similar plight,
 A converted hole becomes a pleasant sight,
 So come in and give it a tryyy
+
+–
 
 
 Accountants, bankers, fishermen, solicitors,
@@ -61,6 +65,7 @@ He jumped in the hole and made to fight,
 But the only one who can claim that right,
 Is the local neighbourhood mooole.
 
+–
 
 To enter you just speak our oath,
 And don this simple old brown robe,
@@ -76,6 +81,7 @@ But we deserve the same human rights,
 And yes we eat worms and shun the light,
 But besides that we're alriiight.
 
+–
 
 Down in the hole we have no king,
 We're an autonomous collective and self-governing,
@@ -91,6 +97,7 @@ And up from the depths fetched them I did
 She thanked me and I clarified
 In the hole we don't need our eyes.
 
+–
 
 The ordnance survey gave us a name,
 On trip advisor we're a four point 8,
@@ -106,6 +113,7 @@ Or the whips on the left as you come in,
 Or the screaming from below what an awful din,
 S’just some newcomers settling iiiin
 
+–
 
 There's pool tables, dorms and a music room,
 Geothermal central heating and an indoor pool,
@@ -121,6 +129,7 @@ We hide and we ditch our time away,
 But in summer when the sun shines gay,
 You can find us in the hoooole.
 
+–
 
 So knock on the rock if you want to come in,
 And leave any post out by the blue bin,
