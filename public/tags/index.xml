@@ -6,8 +6,15 @@
     <description>Recent content in Tags on A place for my mind on the internet...</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jan 2025 09:43:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Mar 2025 09:00:00 +0000</lastBuildDate>
     <atom:link href="https://mattchaib.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing</title>
+      <link>https://mattchaib.com/tags/writing/</link>
+      <pubDate>Mon, 17 Mar 2025 09:00:00 +0000</pubDate>
+      <guid>https://mattchaib.com/tags/writing/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Poems</title>
       <link>https://mattchaib.com/tags/poems/</link>
